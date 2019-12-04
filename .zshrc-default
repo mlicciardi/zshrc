@@ -1,18 +1,24 @@
 # ALIAS
-alias downloads='cd ~/Downloads'
-alias documents='cd ~/Documents'
 alias ..='cd ..'
 alias ....='cd ../..'
+
 alias g='git'
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+
+alias downloads='cd ~/Downloads'
+alias documents='cd ~/Documents'
 alias g-mlicciardi='cd ~/Documents/git-mlicciardi'
 alias g-tengroup='cd ~/Documents/git-tengroup'
 
-alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
+alias y='yarn'
+alias ys='yarn start'
+alias ynuke='rm -R node_modules && yarn cache clean && yarn'
 
-alias y='yarn '
-alias ys='yarn start-qa'
 alias yl='yarn lint:ci'
 alias yt='yarn test:ci'
+
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '
 alias ports='lsof -PiTCP -sTCP:LISTEN'

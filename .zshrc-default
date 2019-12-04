@@ -7,6 +7,8 @@ alias g='git'
 alias g-mlicciardi='cd ~/Documents/git-mlicciardi'
 alias g-tengroup='cd ~/Documents/git-tengroup'
 
+alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
+
 alias y='yarn '
 alias ys='yarn start-qa'
 alias yl='yarn lint:ci'

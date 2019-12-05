@@ -2,7 +2,10 @@
 alias ..='cd ..'
 alias ....='cd ../..'
 
+alias cls='clear'
+
 alias g='git'
+alias gb='git branch'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'

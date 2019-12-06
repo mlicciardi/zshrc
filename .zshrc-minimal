@@ -12,15 +12,18 @@ alias gc='git commit -m'
 
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
-alias g-mlicciardi='cd ~/Documents/git-mlicciardi'
-alias g-tengroup='cd ~/Documents/git-tengroup'
+
+alias g-mlicciardi='cd ~/git-mlicciardi'
+alias g-tengroup='cd ~/git-tengroup'
 
 alias y='yarn'
 alias ys='yarn start'
+alias yload='yarn cache clean && yarn'
 alias ynuke='rm -R node_modules && yarn cache clean && yarn'
 
-alias yl='yarn lint:ci'
-alias yt='yarn test:ci'
+alias ylint='yarn lint:ci'
+alias ytest='yarn test:ci'
+alias ystart-qa='yarn start-qa'
 
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '

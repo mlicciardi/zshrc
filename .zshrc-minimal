@@ -18,8 +18,8 @@ alias g-tengroup='cd ~/git-tengroup'
 
 alias y='yarn'
 alias ys='yarn start'
-alias yload='yarn cache clean && yarn'
-alias ynuke='rm -R node_modules && yarn cache clean && yarn'
+alias y-load='yarn cache clean && yarn'
+alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
 
 alias ylint='yarn lint:ci'
 alias ytest='yarn test:ci'

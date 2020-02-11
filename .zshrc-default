@@ -27,8 +27,10 @@ alias y-load='yarn cache clean && yarn'
 alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
 
 alias ystart-qa='yarn start-qa'
+alias ystart-qa-ten='yarn start-qa-ten'
+
 alias ystart-staging='yarn start-staging'
-alias ystart-staging-mastercard='yarn start-staging-mastercard'
+alias ystart-staging-ten='yarn start-staging-ten'
 
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '

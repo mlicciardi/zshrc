@@ -26,6 +26,8 @@ alias yo='yarn outdated'
 alias y-load='yarn cache clean && yarn'
 alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
 
+alias yt-ci='yarn test:ci'
+
 alias ystart-qa='yarn start-qa'
 alias ystart-qa-ten='yarn start-qa-ten'
 

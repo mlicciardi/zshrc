@@ -33,9 +33,13 @@ alias yb-ci='yarn build:ci'
 
 alias ystart-qa='yarn start-qa'
 alias ystart-qa-ten='yarn start-qa-ten'
+alias ystart-qa-coutts='yarn start-qa-coutts'
+alias ystart-qa-mastercard='yarn start-qa-mastercard'
 
 alias ystart-staging='yarn start-staging'
 alias ystart-staging-ten='yarn start-staging-ten'
+alias ystart-staging-coutts='yarn start-staging-coutts'
+alias ystart-staging-mastercard='yarn start-staging-mastercard'
 
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '

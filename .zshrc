@@ -23,6 +23,8 @@ alias code-zsh='code ~/git-mlicciardi/zshrc'
 
 alias code-tpd='code ~/git-tengroup/vs.tenplatform-frontend.code-workspace'
 
+alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+
 alias y='yarn'
 alias ya='yarn add'
 alias ys='yarn start'

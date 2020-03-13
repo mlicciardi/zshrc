@@ -15,8 +15,13 @@ alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
 alias g-mlicciardi='cd ~/git-mlicciardi'
+
 alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
+
+alias code-zshc='code ~/git-mlicciardi/zshc'
+
+alias code-tpd='code ~/git-tengroup/tenplatform-frontend'
 
 alias y='yarn'
 alias ya='yarn add'

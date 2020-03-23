@@ -14,16 +14,15 @@ alias gc='git commit -m'
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
+alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+
 alias g-mlicciardi='cd ~/git-mlicciardi'
 
 alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
 
 alias code-zsh='code ~/git-mlicciardi/zshrc'
-
 alias code-tpd='code ~/git-tengroup/vs.tenplatform-frontend.code-workspace'
-
-alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
 
 alias y='yarn'
 alias ya='yarn add'
@@ -45,6 +44,7 @@ alias ystart-qa-coutts='yarn start-qa-coutts'
 alias ystart-qa-hsbc-jade='yarn start-qa-hsbc-jade'
 alias ystart-qa-mastercard='yarn start-qa-mastercard'
 alias ystart-qa-mastercard-rak='yarn start-qa-mastercard-rak'
+alias ystart-qa-visa-lac='yarn start-qa-visa-lac'
 
 alias ystart-staging='yarn start-staging'
 alias ystart-staging-ten='yarn start-staging-ten'
@@ -52,6 +52,7 @@ alias ystart-staging-coutts='yarn start-staging-coutts'
 alias ystart-staging-hsbc-jade='yarn start-staging-hsbc-jade'
 alias ystart-staging-mastercard='yarn start-staging-mastercard'
 alias ystart-staging-mastercard-rak='yarn start-staging-mastercard-rak'
+alias ystart-staging-visa-lac='yarn start-staging-visa-lac'
 
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '

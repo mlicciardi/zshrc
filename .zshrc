@@ -22,7 +22,7 @@ alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
 
 alias code-zsh='code ~/git-mlicciardi/zshrc'
-alias code-tpd='code ~/git-tengroup/vs.tenplatform-frontend.code-workspace'
+alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 
 alias y='yarn'
 alias ya='yarn add'

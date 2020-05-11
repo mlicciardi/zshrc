@@ -9,7 +9,12 @@ alias gb='git branch'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
-alias gc='git commit -m'
+
+alias gst='git stash'
+alias gst-apply='git stash apply'
+alias gst-clear='git stash clear'
+
+alias gc-force='git commit --no-verify -m'
 
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'

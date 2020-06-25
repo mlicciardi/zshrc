@@ -18,6 +18,8 @@ alias gst='git stash'
 alias gst-apply='git stash apply'
 alias gst-clear='git stash clear'
 
+alias gpush='git push'
+
 
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'

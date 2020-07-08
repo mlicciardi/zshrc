@@ -9,6 +9,7 @@ alias gb='git branch'
 alias gs='git status'
 
 alias gp='git push'
+alias gp-force='git push --force'
 
 alias gf='git fetch'
 alias gf-prune='git fetch --prune'
@@ -22,6 +23,10 @@ alias gc-force='git commit --no-verify -m'
 alias gstash='git stash'
 alias gstash-apply='git stash apply'
 alias gstash-clear='git stash clear'
+
+alias gr='git rebase'
+alias gr-continue='git rebase --continue'
+alias gr-abort='git rebase --abort'
 
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'

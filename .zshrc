@@ -11,13 +11,19 @@ alias gs='git status'
 alias gp='git push'
 alias gp-force='git push --force'
 
+alias gpush='git push'
+alias gpush-force='git push --force'
+
+alias gfetch='git fetch'
+alias gfetch-prune='git fetch --prune'
+
 alias gf='git fetch'
 alias gf-prune='git fetch --prune'
 
-alias ga.='git add .'
 alias ga='git add'
-alias gc='git commit -m'
+alias ga.='git add .'
 
+alias gc='git commit -m'
 alias gc-force='git commit --no-verify -m'
 
 alias gstash='git stash'
@@ -27,6 +33,10 @@ alias gstash-clear='git stash clear'
 alias gr='git rebase'
 alias gr-continue='git rebase --continue'
 alias gr-abort='git rebase --abort'
+
+alias grebase='git rebase'
+alias grebase-continue='git rebase --continue'
+alias grebase-abort='git rebase --abort'
 
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'

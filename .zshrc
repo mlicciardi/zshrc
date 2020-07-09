@@ -8,6 +8,8 @@ alias g='git'
 alias gb='git branch'
 alias gs='git status'
 
+alias gpull='git pull'
+
 alias gp='git push'
 alias gp-force='git push --force'
 

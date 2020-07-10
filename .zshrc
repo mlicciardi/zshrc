@@ -53,6 +53,9 @@ alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
 alias code-zsh='code ~/git-mlicciardi/zshrc'
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 
+alias auditfix='npm audit fix'
+alias auditfix-force='npm audit fix --force'
+
 alias y='yarn'
 alias ya='yarn add'
 alias ys='yarn start'
@@ -62,6 +65,7 @@ alias yb='yarn build'
 alias yo='yarn outdated'
 alias y-load='yarn cache clean && yarn'
 alias y-nuke='rm -R node_modules && yarn cache clean && yarn'
+alias y-nuke-auditfix='rm -R node_modules && yarn cache clean && yarn && npm audit fix'
 
 alias yl-ci='yarn lint:ci'
 alias yt-ci='yarn test:ci'

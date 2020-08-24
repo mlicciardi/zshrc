@@ -101,6 +101,8 @@ alias ystart-staging-visa-cemea='yarn start-staging-visa-cemea'
 alias ystart-staging-vodafone='yarn start-staging-vodafone'
 alias ystart-staging-westpac='yarn start-staging-westpac'
 
+alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
+
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '
 alias ports='lsof -PiTCP -sTCP:LISTEN'

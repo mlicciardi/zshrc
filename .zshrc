@@ -20,8 +20,8 @@ alias gfetch-prune='git fetch --prune'
 
 alias ga='git add .'
 
-alias gcommit='git commit -m'
-alias gcommit-force='git commit --no-verify -m'
+alias gc='git commit -m'
+alias gc-force='git commit --no-verify -m'
 
 alias gstash='git stash'
 alias gstash-apply='git stash apply'

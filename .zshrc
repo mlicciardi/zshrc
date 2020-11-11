@@ -8,6 +8,9 @@ alias g='git'
 alias gb='git branch'
 alias gs='git status'
 
+alias greflog-expire='git reflog expire --expire-unreachable=now --all'
+alias greflog-prune='git gc --prune=now'
+
 alias gpull='git pull'
 alias gpush='git push'
 alias gpush-force='git push --force'

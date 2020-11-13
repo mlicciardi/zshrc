@@ -15,7 +15,11 @@ alias gpush-force='git push --force'
 alias gfetch='git fetch'
 alias gfetch-prune='git fetch --prune'
 
+alias gf='git fetch'
+alias gf-prune='git fetch --prune'
+
 alias ga='git add .'
+alias ga.='git add .'
 
 alias gc='git commit -m'
 alias gc-force='git commit --no-verify -m'
@@ -103,6 +107,11 @@ alias look='find . -name'
 alias search='grep --color -rnw ./ -e '
 alias ports='lsof -PiTCP -sTCP:LISTEN'
 alias speedtest='wget -O /dev/null cachefly.cachefly.net/100mb.test'
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 # LOAD GIT COMPLETION
 zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash

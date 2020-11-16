@@ -93,7 +93,6 @@ alias ystart-qa-visa-cemea='yarn start-qa-visa-cemea'
 alias ystart-qa-visa-lac='yarn start-qa-visa-lac'
 alias ystart-qa-vodafone='yarn start-qa-vodafone'
 alias ystart-qa-westpac='yarn start-qa-westpac'
-alias ystart-qa='yarn start-qa'
 
 alias ystart-staging-absa='yarn start-staging-absa'
 alias ystart-staging-coutts='yarn start-staging-coutts'
@@ -112,7 +111,6 @@ alias ystart-staging-visa-cemea='yarn start-staging-visa-cemea'
 alias ystart-staging-visa-lac='yarn start-staging-visa-lac'
 alias ystart-staging-vodafone='yarn start-staging-vodafone'
 alias ystart-staging-westpac='yarn start-staging-westpac'
-alias ystart-staging='yarn start-staging'
 
 alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
 

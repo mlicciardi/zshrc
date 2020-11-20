@@ -70,8 +70,8 @@ alias yb='yarn build'
 alias yo='yarn outdated'
 
 alias y-load='clear && yarn cache clean && yarn'
-alias y-nuke='clear && rm -R node_modules && yarn cache clean && yarn'
-alias y-nuke-auditfix='clear && rm -R node_modules && yarn cache clean && yarn && npm audit fix'
+alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn'
+alias y-nuke-auditfix='clear && rm -R -f node_modules && yarn cache clean && yarn && npm audit fix'
 
 alias yl-ci='yarn lint:ci'
 alias yt-ci='yarn test:ci'

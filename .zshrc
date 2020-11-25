@@ -132,7 +132,7 @@ autoload -Uz compinit && compinit
 
 # RUBY
 export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PATH="$HOME/.gem/ruby/2.6.3/bin:$PATH
+export PATH="$HOME/.gem/ruby/2.6.3/bin:$PATH"
 
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete

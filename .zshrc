@@ -130,6 +130,9 @@ zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
 fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
+# RUBY
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete
 

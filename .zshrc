@@ -132,6 +132,8 @@ autoload -Uz compinit && compinit
 
 # RUBY
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"
+eval "$(rbenv init -)"
 
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete
@@ -194,6 +196,3 @@ POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=''
 
 POWERLEVEL9K_TIME_BACKGROUND='none'
 POWERLEVEL9K_TIME_FOREGROUND='yellow'
-
-# RUBY
-eval "$(rbenv init -)"

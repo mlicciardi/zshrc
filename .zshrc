@@ -131,8 +131,7 @@ fpath=(~/.zsh $fpath)
 autoload -Uz compinit && compinit
 
 # RUBY
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export PATH="/Users/Mattia/.gem/ruby/2.6.0/bin:$PATH"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete

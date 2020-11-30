@@ -54,7 +54,7 @@ alias grebase-abort='git rebase --abort'
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
-alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
 
 alias g-mlicciardi='cd ~/git-mlicciardi'
 

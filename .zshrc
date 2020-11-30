@@ -2,7 +2,7 @@
 alias ..='cd ..'
 alias ....='cd ../..'
 
-alias ls-la='ls-la'
+alias ls-la='ls -la'
 
 alias cls='clear'
 
@@ -64,6 +64,7 @@ alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace
 
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 
+alias .zsh-push='git add . && git commit -m update && git push'
 alias .zsh-pull='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
 alias .zsh-load='source ~/.zshrc'
 
@@ -71,6 +72,9 @@ alias .zsh-load='source ~/.zshrc'
 vscodeWorkspace() {
   echo "{ 'folders': [ { 'path': '$1' } ], 'settings': { 'files.associations': {} } }" >> "$1.code-workspace"
 }
+
+# JEKYLL
+alias jekyll-serve='bundle exec jekyll serve'
 
 # NPM
 alias auditfix='npm audit fix'

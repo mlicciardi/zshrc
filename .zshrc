@@ -6,9 +6,16 @@ alias la-la='la-la'
 
 alias cls='clear'
 
+alias look='find . -name'
+alias search='grep --color -rnw ./ -e '
+alias ports='lsof -PiTCP -sTCP:LISTEN'
+alias speedtest='wget -O /dev/null cachefly.cachefly.net/100mb.test'
+
+# GIT
 alias g='git'
-alias gb='git branch'
 alias gs='git status'
+alias gb='git branch'
+alias gb-delete='git branch -D'
 
 alias gpull='git pull'
 alias gpush='git push'
@@ -16,9 +23,7 @@ alias gpush-force='git push --force'
 
 alias gfetch='git fetch'
 alias gfetch-prune='git fetch --prune'
-
-alias gf='git fetch'
-alias gf-prune='git fetch --prune'
+alias gfp='git fetch --prune'
 
 alias ga='git add .'
 alias ga.='git add .'
@@ -26,7 +31,6 @@ alias ga.='git add .'
 alias gc='git commit -m'
 alias gcf='git commit --no-verify -m'
 alias gc-force='git commit --no-verify -m'
-
 
 alias gcommit='git commit -m'
 alias gcommit-force='git commit --no-verify -m'
@@ -62,9 +66,17 @@ alias code-zsh='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 
+# VSCODE
+vscodeWorkspace() {
+  PROJECT_NAME = $1
+  echo "{ "folders": [ { "path": "mlicciardi.github.io" } ], "settings": { "files.associations": {} } }" >> "$PROJECT_NAME.code-workspace"
+}
+
+# NPM
 alias auditfix='npm audit fix'
 alias auditfix-force='npm audit fix --force'
 
+# YARN
 alias y='yarn'
 alias ya='yarn add'
 alias ys='yarn start'
@@ -81,6 +93,10 @@ alias yl-ci='yarn lint:ci'
 alias yt-ci='yarn test:ci'
 alias yb-ci='yarn build:ci'
 
+# TEN
+alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
+
+# TEN QA
 alias ystart-qa-absa='clear && yarn start-qa-absa'
 alias ystart-qa-coutts='clear && yarn start-qa-coutts'
 alias ystart-qa-dbs='clear && yarn start-qa-dbs'
@@ -99,6 +115,7 @@ alias ystart-qa-visa-lac='clear && yarn start-qa-visa-lac'
 alias ystart-qa-vodafone='clear && yarn start-qa-vodafone'
 alias ystart-qa-westpac='clear && yarn start-qa-westpac'
 
+# TEN STAGING
 alias ystart-staging-absa='clear && yarn start-staging-absa'
 alias ystart-staging-coutts='clear && yarn start-staging-coutts'
 alias ystart-staging-dbs='clear && yarn start-staging-dbs'
@@ -116,13 +133,6 @@ alias ystart-staging-visa-cemea='clear && yarn start-staging-visa-cemea'
 alias ystart-staging-visa-lac='clear && yarn start-staging-visa-lac'
 alias ystart-staging-vodafone='clear && yarn start-staging-vodafone'
 alias ystart-staging-westpac='clear && yarn start-staging-westpac'
-
-alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
-
-alias look='find . -name'
-alias search='grep --color -rnw ./ -e '
-alias ports='lsof -PiTCP -sTCP:LISTEN'
-alias speedtest='wget -O /dev/null cachefly.cachefly.net/100mb.test'
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

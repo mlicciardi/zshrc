@@ -69,7 +69,8 @@ alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 # VSCODE
 vscodeWorkspace() {
   PROJECT_NAME = $1
-  echo "{ 'folders': [ { 'path': '$PROJECT_NAME' } ], 'settings': { 'files.associations': {} } }" >> "$PROJECT_NAME.code-workspace"
+  WORKSPACE_FILE = "$PROJECT_NAME.code-workspace"
+  echo "{ 'folders-XXX': [ { 'path': '$PROJECT_NAME' } ], 'settings': { 'files.associations': {} } }" >> $WORKSPACE_FILE
 }
 
 # NPM

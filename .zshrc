@@ -12,6 +12,8 @@ alias ports='lsof -PiTCP -sTCP:LISTEN'
 alias speedtest='wget -O /dev/null cachefly.cachefly.net/100mb.test'
 
 # GIT
+alias git-push-update='git add . && git commit -m update && git push'
+
 alias g='git'
 alias gs='git status'
 alias gb='git branch'

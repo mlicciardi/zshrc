@@ -60,7 +60,7 @@ alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
 
 alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
-alias code-zsh='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 

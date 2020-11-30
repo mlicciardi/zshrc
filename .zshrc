@@ -54,9 +54,6 @@ alias grebase-abort='git rebase --abort'
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
-alias pull-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
-alias load-zsh='source ~/.zshrc'
-
 alias g-mlicciardi='cd ~/git-mlicciardi'
 
 alias g-tengroup='cd ~/git-tengroup'
@@ -66,6 +63,9 @@ alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-zsh='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
+
+alias .zsh-pull='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+alias .zsh-load='source ~/.zshrc'
 
 # VSCODE
 vscodeWorkspace() {

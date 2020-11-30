@@ -71,6 +71,8 @@ vscodeWorkspace() {
   echo "{ 'folders-XXX': [ { 'path': '$1' } ], 'settings': { 'files.associations': {} } }" >> "$1.code-workspace"
 }
 
+alias asd="echo 'test'"
+
 # NPM
 alias auditfix='npm audit fix'
 alias auditfix-force='npm audit fix --force'

@@ -2,7 +2,7 @@
 alias ..='cd ..'
 alias ....='cd ../..'
 
-alias ls-la='ls -la'
+alias lsla='ls -la'
 
 alias cls='clear'
 

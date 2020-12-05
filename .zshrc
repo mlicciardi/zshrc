@@ -74,7 +74,7 @@ alias .zsh-full='git add . && git commit -m update && git push && curl -o ~/.zsh
 
 # VSCODE
 vscodeWorkspace() {
-  echo "{ 'folders': [ { 'path': '$1' } ], 'settings': { 'files.associations': {} } }" >> "$1.code-workspace"
+  echo"{\n\t\"folders\": [\n\t\t{\n\t\t\t\"path\": \"$1\"\n\t\t}\n\t],\n\t\"settings\": {\n\t\t\"files.associations\": {}\n\t}\n}\n" >> "$1.code-workspace"
 }
 
 # JEKYLL

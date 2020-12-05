@@ -12,7 +12,7 @@ alias ports='lsof -PiTCP -sTCP:LISTEN'
 alias speedtest='wget -O /dev/null cachefly.cachefly.net/100mb.test'
 
 # GIT
-alias git-push-update='git add . && git commit -m update && git push'
+alias gquick-push-update='git add . && git commit -m update && git push'
 
 alias g='git'
 alias gs='git status'
@@ -87,19 +87,20 @@ alias auditfix-force='npm audit fix --force'
 # YARN
 alias y='yarn'
 alias ya='yarn add'
-alias ys='yarn start'
-alias yl='yarn lint'
-alias yt='yarn test'
-alias yb='yarn build'
-alias yo='yarn outdated'
+
+alias ys='clear &&yarn start'
+alias yl='clear &&yarn lint'
+alias yt='clear &&yarn test'
+alias yb='clear &&yarn build'
+alias yo='clear && yarn outdated'
+
+alias yl-ci='clear && yarn lint:ci'
+alias yt-ci='clear && yarn test:ci'
+alias yb-ci='clear && yarn build:ci'
 
 alias y-load='clear && yarn cache clean && yarn'
 alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn'
 alias y-nuke-auditfix='clear && rm -R -f node_modules && yarn cache clean && yarn && npx yarn-audit-fix'
-
-alias yl-ci='yarn lint:ci'
-alias yt-ci='yarn test:ci'
-alias yb-ci='yarn build:ci'
 
 # TEN
 alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'

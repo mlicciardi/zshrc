@@ -67,10 +67,9 @@ alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 
 # ZSHRC
-alias .zsh-push='git add . && git commit -m update && git push'
-alias .zsh-pull='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
-alias .zsh-load='source ~/.zshrc'
-alias .zsh-full='git add . && git commit -m update && git push && curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
+alias zsh-fetch='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+alias zsh-load='source ~/.zshrc'
+alias zsh-push-and-update='git add . && git commit -m update && git push && curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
 
 # VSCODE
 vscodeWorkspace() {

@@ -63,8 +63,11 @@ alias g-tengroup-tpd='cd ~/git-tengroup/tenplatform-frontend'
 
 alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
-
 alias code-tpd='code ~/git-tengroup/tenplatform-frontend.code-workspace'
+
+alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
+alias code-insiders-mlicciardi='code-insiders ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-insiders-tpd='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
 
 # ZSHRC
 alias zsh-load='source ~/.zshrc'

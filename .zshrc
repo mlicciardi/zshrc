@@ -88,12 +88,12 @@ alias auditfix-force='npm audit fix --force'
 
 # YARN
 alias y='yarn'
-alias ya='yarn add'
 
-alias ys='clear &&yarn start'
-alias yl='clear &&yarn lint'
-alias yt='clear &&yarn test'
-alias yb='clear &&yarn build'
+alias ya='clear && yarn add'
+alias ys='clear && yarn start'
+alias yl='clear && yarn lint'
+alias yt='clear && yarn test'
+alias yb='clear && yarn build'
 alias yo='clear && yarn outdated'
 
 alias yl-ci='clear && yarn lint:ci'

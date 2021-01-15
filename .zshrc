@@ -109,6 +109,7 @@ alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
 
 # TEN QA
 alias ystart-qa-absa='clear && yarn start-qa-absa'
+alias ystart-qa-centurion='clear && yarn start-qa-centurion'
 alias ystart-qa-coutts='clear && yarn start-qa-coutts'
 alias ystart-qa-dbs='clear && yarn start-qa-dbs'
 alias ystart-qa-discover-digital='clear && yarn start-qa-discover-digital'
@@ -128,6 +129,7 @@ alias ystart-qa-westpac='clear && yarn start-qa-westpac'
 
 # TEN STAGING
 alias ystart-staging-absa='clear && yarn start-staging-absa'
+alias ystart-staging-centurion='clear && yarn start-staging-centurion'
 alias ystart-staging-coutts='clear && yarn start-staging-coutts'
 alias ystart-staging-dbs='clear && yarn start-staging-dbs'
 alias ystart-staging-discover-digital='clear && yarn start-staging-discover-digital'

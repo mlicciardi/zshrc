@@ -164,6 +164,10 @@ autoload -Uz compinit && compinit
 eval "$(rbenv init -)"
 export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 
+# PYTHON
+export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="/usr/local/opt/bzip2/bin:$PATH"
+
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete
 

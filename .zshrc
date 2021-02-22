@@ -62,13 +62,13 @@ alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd-fe='cd ~/git-tengroup/tenplatform-frontend'
 alias g-tengroup-tpd-be='cd ~/git-tengroup/tenplatform-backend'
 
-alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
 
-alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
 alias code-insiders-mlicciardi='code-insiders ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
 alias code-insiders-tpd-fe='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-insiders-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 
@@ -103,9 +103,9 @@ alias yl-ci='clear && yarn lint:ci'
 alias yt-ci='clear && yarn test:ci'
 alias yb-ci='clear && yarn build:ci'
 
-alias y-load='clear && yarn cache clean && yarn'
-alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn'
-alias y-nuke-auditfix='clear && rm -R -f node_modules && yarn cache clean && yarn && npx yarn-audit-fix'
+alias y-load='clear && yarn cache clean && yarn && rm -R -f .git/hooks'
+alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn && rm -R -f .git/hooks'
+alias y-nuke-auditfix='y-nuke && npx yarn-audit-fix'
 
 # TEN
 alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'

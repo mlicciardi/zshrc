@@ -62,13 +62,13 @@ alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd-fe='cd ~/git-tengroup/tenplatform-frontend'
 alias g-tengroup-tpd-be='cd ~/git-tengroup/tenplatform-backend'
 
-alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
 
-alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
 alias code-insiders-mlicciardi='code-insiders ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
 alias code-insiders-tpd-fe='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-insiders-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 

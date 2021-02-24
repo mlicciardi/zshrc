@@ -1,7 +1,5 @@
 # zshrc
-
 curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc
-source ~/.zshrc
 
 # powerlevel9k
 brew tap sambadevi/powerlevel9k

@@ -89,9 +89,9 @@ alias code-insiders-tengroup-tpd-fe='code-insiders ~/git-tengroup/tenplatform-fr
 alias code-insiders-tengroup-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 
 # ZSHRC
-alias zsh-fetch='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
-alias zsh-fetch-curl='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
-alias zsh-fetch-source='source ~/.zshrc'
+alias fetch-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
+alias fetch-zsh-curl='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+alias fetch-zsh-source='source ~/.zshrc'
 # VSCODE
 vscodeWorkspace() {
   echo "{\n\t\"folders\": [\n\t\t{\n\t\t\t\"path\": \"$1\"\n\t\t}\n\t],\n\t\"settings\": {\n\t\t\"files.associations\": {}\n\t}\n}\n" >> "$1.code-workspace"

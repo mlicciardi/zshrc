@@ -8,8 +8,8 @@ brew tap sambadevi/powerlevel9k
 brew install powerlevel9k
 
 # powerlevel10k
-brew tap sambadevi/powerlevel9k
-brew install powerlevel9k
+brew tap romkatv/powerlevel10k
+brew install powerlevel10k
 
 # font
 brew tap homebrew/cask-fonts

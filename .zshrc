@@ -175,7 +175,12 @@ export PATH="/usr/local/opt/bzip2/bin:$PATH"
 POWERLEVEL9K_MODE=nerdfont-complete
 
 # POWERLEVEL9K SRC
-source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+# source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 
 #POWERLEVEL9K SETTINGS
 POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last

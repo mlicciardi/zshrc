@@ -122,10 +122,10 @@ alias y-load='clear && yarn cache clean && yarn && rm -R -f .git/hooks'
 alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn && rm -R -f .git/hooks'
 alias y-nuke-auditfix='clear && rm -R -f node_modules && yarn cache clean && yarn && rm -R -f .git/hooks && npx yarn-audit-fix'
 
-# TEN
+# TEN SSH
 alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
 
-# TEN QA
+# TEN QA SITES
 alias ystart-qa-absa='clear && yarn start-qa-absa'
 alias ystart-qa-centurion='clear && yarn start-qa-centurion'
 alias ystart-qa-coutts='clear && yarn start-qa-coutts'
@@ -145,7 +145,7 @@ alias ystart-qa-visa-lac='clear && yarn start-qa-visa-lac'
 alias ystart-qa-vodafone='clear && yarn start-qa-vodafone'
 alias ystart-qa-westpac='clear && yarn start-qa-westpac'
 
-# TEN STAGING
+# TEN STAGING SITES
 alias ystart-staging-absa='clear && yarn start-staging-absa'
 alias ystart-staging-centurion='clear && yarn start-staging-centurion'
 alias ystart-staging-coutts='clear && yarn start-staging-coutts'

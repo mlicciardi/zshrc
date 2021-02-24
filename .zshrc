@@ -89,9 +89,8 @@ alias code-insiders-tengroup-tpd-fe='code-insiders ~/git-tengroup/tenplatform-fr
 alias code-insiders-tengroup-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 
 # ZSHRC
-alias get-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc && source ~/.zshrc'
-alias get-zsh-curl='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
-alias get-zsh-source='source ~/.zshrc'
+alias fetch-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
+alias fetch-zsh-source='source ~/.zshrc'
 
 # VSCODE
 vscodeWorkspace() {

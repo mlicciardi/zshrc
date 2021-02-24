@@ -64,6 +64,9 @@ alias g-tengroup-tpd-be='cd ~/git-tengroup/tenplatform-backend'
 
 alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
+alias code-iterm-profile='code ~/git-mlicciardi/iterm-profile.code-workspace'
+alias code-terminal-profile='code ~/git-mlicciardi/terminal-profile.code-workspace'
+alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
 

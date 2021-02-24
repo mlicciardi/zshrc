@@ -56,28 +56,37 @@ alias grebase-abort='git rebase --abort'
 alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
+# mlicciardi path
 alias g-mlicciardi='cd ~/git-mlicciardi'
-alias g-mlicciardi-zsh='cd ~/git-mlicciardi'
+# mlicciardi repo
+alias g-mlicciardi-zsh='cd ~/git-mlicciardi/zshrc'
 alias g-mlicciardi-iterm-profile='cd ~/git-mlicciardi/iterm-profile'
 alias g-mlicciardi-terminal-profile='cd ~/git-mlicciardi/terminal-profile'
+alias g-mlicciardi-mlicciardi='cd ~/git-mlicciardi/mlicciardi'
+# mlicciardi code
+alias code-mlicciardi-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
+alias code-mlicciardi-iterm-profile='code ~/git-mlicciardi/iterm-profile.code-workspace'
+alias code-mlicciardi-terminal-profile='code ~/git-mlicciardi/terminal-profile.code-workspace'
+alias code-mlicciardi-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
+# bsoft360 path
 alias g-bsoft360='cd ~/git-bsoft360'
+# bsoft360 repo
 alias g-bsoft360-gestionale-mbc-='cd ~/git-bsoft360/gestionale-mbc'
+# bsoft360 code
+alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
 
+# tengroup path
 alias g-tengroup='cd ~/git-tengroup'
+# tengroup repo
 alias g-tengroup-tpd-fe='cd ~/git-tengroup/tenplatform-frontend'
 alias g-tengroup-tpd-be='cd ~/git-tengroup/tenplatform-backend'
-
-alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
-alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
-alias code-iterm-profile='code ~/git-mlicciardi/iterm-profile.code-workspace'
-alias code-terminal-profile='code ~/git-mlicciardi/terminal-profile.code-workspace'
-
-alias code-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
-alias code-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
-
-alias code-insiders-tpd-fe='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
-alias code-insiders-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
+# tengroup code
+alias code-tengroup-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
+alias code-tengroup-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
+# tengroup code-insiders
+alias code-insiders-tengroup-tpd-fe='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
+alias code-insiders-tengroup-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 
 # ZSHRC
 alias zsh-load='source ~/.zshrc'
@@ -197,7 +206,7 @@ DEFAULT_USER='Mattia'
 
 # LEFT_PROMPT
 # ===========================================================
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context path vcs)
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=''
 POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR=' '
 POWERLEVEL9K_WHITESPACE_BETWEEN_LEFT_SEGMENTS=''

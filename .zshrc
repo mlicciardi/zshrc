@@ -57,6 +57,12 @@ alias downloads='cd ~/Downloads'
 alias documents='cd ~/Documents'
 
 alias g-mlicciardi='cd ~/git-mlicciardi'
+alias g-mlicciardi-zsh='cd ~/git-mlicciardi'
+alias g-mlicciardi-iterm-profile='cd ~/git-mlicciardi/iterm-profile'
+alias g-mlicciardi-terminal-profile='cd ~/git-mlicciardi/terminal-profile'
+
+alias g-bsoft360='cd ~/git-bsoft360'
+alias g-bsoft360-gestionale-mbc-='cd ~/git-bsoft360/gestionale-mbc'
 
 alias g-tengroup='cd ~/git-tengroup'
 alias g-tengroup-tpd-fe='cd ~/git-tengroup/tenplatform-frontend'
@@ -66,12 +72,10 @@ alias code-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace
 alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-iterm-profile='code ~/git-mlicciardi/iterm-profile.code-workspace'
 alias code-terminal-profile='code ~/git-mlicciardi/terminal-profile.code-workspace'
-alias code-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
+
 alias code-tpd-fe='code ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-tpd-be='code ~/git-tengroup/tenplatform-backend.code-workspace'
 
-alias code-insiders-mlicciardi='code-insiders ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
-alias code-insiders-zsh='code-insiders ~/git-mlicciardi/zshrc.code-workspace'
 alias code-insiders-tpd-fe='code-insiders ~/git-tengroup/tenplatform-frontend.code-workspace'
 alias code-insiders-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 

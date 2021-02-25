@@ -2,9 +2,11 @@
 alias ..='cd ..'
 alias ....='cd ../..'
 
+alias cls='clear'
+
 alias lsla='ls -la'
 
-alias cls='clear'
+alias rm-rf='rm -R -f'
 
 alias look='find . -name'
 alias search='grep --color -rnw ./ -e '

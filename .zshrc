@@ -62,14 +62,14 @@ alias documents='cd ~/Documents'
 alias g-mlicciardi='cd ~/git-mlicciardi'
 # mlicciardi repo
 alias g-mlicciardi-zsh='cd ~/git-mlicciardi/zshrc'
-alias g-mlicciardi-iterm-profile='cd ~/git-mlicciardi/iterm-profile'
-alias g-mlicciardi-terminal-profile='cd ~/git-mlicciardi/terminal-profile'
-alias g-mlicciardi-mlicciardi='cd ~/git-mlicciardi/mlicciardi'
+alias g-mlicciardi-iterm='cd ~/git-mlicciardi/iterm'
+alias g-mlicciardi-terminal='cd ~/git-mlicciardi/terminal'
+alias g-mlicciardi-github.io='cd ~/git-mlicciardi/mlicciardi'
 # mlicciardi code
 alias code-mlicciardi-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
-alias code-mlicciardi-iterm-profile='code ~/git-mlicciardi/iterm-profile.code-workspace'
-alias code-mlicciardi-terminal-profile='code ~/git-mlicciardi/terminal-profile.code-workspace'
-alias code-mlicciardi-mlicciardi='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
+alias code-mlicciardi-iterm='code ~/git-mlicciardi/iterm.code-workspace'
+alias code-mlicciardi-terminal='code ~/git-mlicciardi/terminal.code-workspace'
+alias code-mlicciardi-github.io='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
 # bsoft360 path
 alias g-bsoft360='cd ~/git-bsoft360'

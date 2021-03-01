@@ -203,6 +203,12 @@ export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="/usr/local/opt/bzip2/bin:$PATH"
 
+# JAVA
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+# MAVEN
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
 #POWERLEVEL9K MODE
 POWERLEVEL9K_MODE=nerdfont-complete
 

@@ -214,9 +214,9 @@ export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="/usr/local/opt/bzip2/bin:$PATH"
 
 # JAVA
-if java_home; then
-  export JAVA_HOME=$(/usr/libexec/java_home)
-fi
+# if java_home; then
+#   export JAVA_HOME=$(/usr/libexec/java_home)
+# fi
 
 # MAVEN
 export PATH="/usr/local/opt/openjdk/bin:$PATH"

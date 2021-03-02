@@ -213,7 +213,7 @@ export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="/usr/local/opt/bzip2/bin:$PATH"
 
 # JAVA
-if type -p java_home; then
+if java_home; then
     export JAVA_HOME=$(/usr/libexec/java_home)
 else
     echo "no java_home"

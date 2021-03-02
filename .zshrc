@@ -78,6 +78,15 @@ alias g-bsoft360-gestionale-mbc='cd ~/git-bsoft360/gestionale-mbc'
 # bsoft360 code
 alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
 
+# red path
+alias g-red='cd ~/git-red'
+# red repo
+alias g-red-sgf-frontend='cd ~/git-red/sgf-frontend'
+alias g-red-sgf-backend='cd ~/git-red/sgf-backend'
+# red code
+alias code-red-sgf-frontend='code ~/git-red/sgf-frontend.code-workspace'
+alias code-red-sgf-backend='code ~/git-red/sgf-backend.code-workspace'
+
 # tengroup path
 alias g-tengroup='cd ~/git-tengroup'
 # tengroup repo

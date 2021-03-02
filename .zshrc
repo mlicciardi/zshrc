@@ -100,6 +100,7 @@ alias code-insiders-tengroup-tpd-fe='code-insiders ~/git-tengroup/tenplatform-fr
 alias code-insiders-tengroup-tpd-be='code-insiders ~/git-tengroup/tenplatform-backend.code-workspace'
 
 # ZSHRC
+alias code-zsh='code ~/.zshrc'
 alias fetch-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
 alias fetch-zsh-source='source ~/.zshrc'
 

@@ -74,9 +74,9 @@ alias code-mlicciardi-github.io='code ~/git-mlicciardi/mlicciardi.github.io.code
 # bsoft360 path
 alias g-bsoft360='cd ~/git-bsoft360'
 # bsoft360 repo
-alias g-bsoft360-gestionale-mbc='cd ~/git-bsoft360/gestionale-mbc'
+alias g-bsoft360-erp-mbc='cd ~/git-bsoft360/erp-mbc'
 # bsoft360 code
-alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
+alias code-bsoft360-erp-mbc='code ~/git-bsoft360/erp-mbc.code-workspace'
 
 # red path
 alias g-red='cd ~/git-red'
@@ -119,12 +119,15 @@ alias auditfix-force='npm audit fix --force'
 # YARN
 alias y='yarn'
 
+alias ya-dev='clear && yarn add --dev'
 alias ya='clear && yarn add'
 alias ys='clear && yarn start'
 alias yl='clear && yarn lint'
 alias yt='clear && yarn test'
 alias yb='clear && yarn build'
 alias yo='clear && yarn outdated'
+
+alias yl-fix='clear && yarn lint:fix'
 
 alias yl-ci='clear && yarn lint:ci'
 alias yt-ci='clear && yarn test:ci'
@@ -133,6 +136,27 @@ alias yb-ci='clear && yarn build:ci'
 alias y-load='clear && yarn cache clean && yarn && rm -R -f .git/hooks'
 alias y-nuke='clear && rm -R -f node_modules && yarn cache clean && yarn && rm -R -f .git/hooks'
 alias y-nuke-auditfix='clear && rm -R -f node_modules && yarn cache clean && yarn && rm -R -f .git/hooks && npx yarn-audit-fix'
+
+# NPM
+alias n='npm'
+
+alias na-dev='clear && npm i --save-dev'
+alias na='clear && npm i'
+alias ns='clear && npm run start'
+alias nl='clear && npm run lint'
+alias nt='clear && npm run test'
+alias nb='clear && npm run build'
+alias no='clear && npm outdated'
+
+alias nl-fix='clear && npm run lint:fix'
+
+alias nl-ci='clear && npm lint:ci'
+alias nt-ci='clear && npm test:ci'
+alias nb-ci='clear && npm build:ci'
+
+alias n-load='clear && && npm i && rm -R -f .git/hooks'
+alias n-nuke='clear && rm -R -f node_modules && npm i && rm -R -f .git/hooks'
+alias n-nuke-auditfix='clear && rm -R -f node_modules && npm i && rm -R -f .git/hooks && npx npm-audit-fix'
 
 # TEN SSH
 alias ssh-ten='ssh mattialicciardi@34.254.165.109 -i ~/.ssh/vpn_rsa'
@@ -176,6 +200,9 @@ alias ystart-staging-visa-cemea='clear && yarn start-staging-visa-cemea'
 alias ystart-staging-visa-lac='clear && yarn start-staging-visa-lac'
 alias ystart-staging-vodafone='clear && yarn start-staging-vodafone'
 alias ystart-staging-westpac='clear && yarn start-staging-westpac'
+
+# RED SPRING
+alias mvn-spring-boot='clear && mvn spring-boot:run -Dspring-boot.run.profiles=dev'
 
 # NVM
 lazynvm() {

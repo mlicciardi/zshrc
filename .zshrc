@@ -64,11 +64,13 @@ alias g-mlicciardi='cd ~/git-mlicciardi'
 alias g-mlicciardi-zsh='cd ~/git-mlicciardi/zshrc'
 alias g-mlicciardi-iterm='cd ~/git-mlicciardi/iterm'
 alias g-mlicciardi-terminal='cd ~/git-mlicciardi/terminal'
+alias g-mlicciardi-apache='cd ~/git-mlicciardi/apache'
 alias g-mlicciardi-github.io='cd ~/git-mlicciardi/mlicciardi'
 # mlicciardi code
 alias code-mlicciardi-zsh='code ~/git-mlicciardi/zshrc.code-workspace'
 alias code-mlicciardi-iterm='code ~/git-mlicciardi/iterm.code-workspace'
 alias code-mlicciardi-terminal='code ~/git-mlicciardi/terminal.code-workspace'
+alias code-mlicciardi-apache='code ~/git-mlicciardi/apache.code-workspace'
 alias code-mlicciardi-github.io='code ~/git-mlicciardi/mlicciardi.github.io.code-workspace'
 
 # bsoft360 path

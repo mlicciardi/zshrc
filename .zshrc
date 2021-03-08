@@ -75,12 +75,12 @@ alias code-mlicciardi-github.io='code ~/git-mlicciardi/mlicciardi.github.io.code
 alias g-bsoft360='cd ~/git-bsoft360'
 # bsoft360 repo
 alias g-bsoft360-gestionale-mbc='cd ~/git-bsoft360/gestionale-mbc'
-alias g-bsoft360-gestionale-mbc-app='cd ~/git-bsoft360/gestionale-mbc/app'
 alias g-bsoft360-gestionale-mbc-api='cd ~/git-bsoft360/gestionale-mbc/api'
+alias g-bsoft360-gestionale-mbc-app='cd ~/git-bsoft360/gestionale-mbc/app'
 # bsoft360 code
 alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
-alias code-bsoft360-gestionale-mbc-app='code ~/git-bsoft360/gestionale-mbc-app.code-workspace'
 alias code-bsoft360-gestionale-mbc-api='code ~/git-bsoft360/gestionale-mbc-api.code-workspace'
+alias code-bsoft360-gestionale-mbc-app='code ~/git-bsoft360/gestionale-mbc-app.code-workspace'
 
 # red path
 alias g-red='cd ~/git-red'

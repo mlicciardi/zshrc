@@ -79,8 +79,8 @@ alias g-bsoft360-gestionale-mbc-app='cd ~/git-bsoft360/gestionale-mbc/app'
 alias g-bsoft360-gestionale-mbc-api='cd ~/git-bsoft360/gestionale-mbc/api'
 # bsoft360 code
 alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
-alias code-bsoft360-gestionale-mbc-fe='code ~/git-bsoft360/gestionale-mbc-app.code-workspace'
-alias code-bsoft360-gestionale-mbc-be='code ~/git-bsoft360/gestionale-mbc-api.code-workspace'
+alias code-bsoft360-gestionale-mbc-app='code ~/git-bsoft360/gestionale-mbc-app.code-workspace'
+alias code-bsoft360-gestionale-mbc-api='code ~/git-bsoft360/gestionale-mbc-api.code-workspace'
 
 # red path
 alias g-red='cd ~/git-red'

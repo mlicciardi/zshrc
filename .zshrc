@@ -115,6 +115,11 @@ alias code-zsh='code ~/.zshrc'
 alias fetch-zsh='curl -o ~/.zshrc https://raw.githubusercontent.com/mlicciardi/zshrc/master/.zshrc'
 alias fetch-zsh-source='source ~/.zshrc'
 
+# APACHE
+alias code-insiders-host='sudo code-insiders /etc/hosts'
+alias code-insiders-httpd='sudo code-insiders /etc/apache2/httpd.conf'
+alias code-insiders-httpd-vhosts='sudo code-insiders /etc/apache2/extra/httpd-vhosts.conf'
+
 # VSCODE
 vscodeWorkspace() {
   echo "{\n\t\"folders\": [\n\t\t{\n\t\t\t\"path\": \"$1\"\n\t\t}\n\t],\n\t\"settings\": {\n\t\t\"files.associations\": {}\n\t}\n}\n" >> "$1.code-workspace"

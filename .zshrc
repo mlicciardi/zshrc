@@ -91,9 +91,11 @@ alias g-red='cd ~/git-red'
 # red repo
 alias g-red-sgf-frontend='cd ~/git-red/sgf-frontend'
 alias g-red-sgf-backend='cd ~/git-red/sgf-backend'
+alias g-red-notifyme-platform-app='cd ~/git-red/notifyme-platform-app'
 # red code
 alias code-red-sgf-frontend='code ~/git-red/sgf-frontend.code-workspace'
 alias code-red-sgf-backend='code ~/git-red/sgf-backend.code-workspace'
+alias code-red-notifyme-platform-app='code ~/git-red/notifyme-platform-app.code-workspace'
 
 # tengroup path
 alias g-tengroup='cd ~/git-tengroup'

@@ -77,25 +77,25 @@ alias code-mlicciardi-github.io='code ~/git-mlicciardi/mlicciardi.github.io.code
 alias g-bsoft360='cd ~/git-bsoft360'
 # bsoft360 repo
 alias g-bsoft360-gestionale-mbc='cd ~/git-bsoft360/gestionale-mbc'
-alias g-bsoft360-gestionale-mbc-api='cd ~/git-bsoft360/gestionale-mbc/api'
-alias g-bsoft360-gestionale-mbc-app='cd ~/git-bsoft360/gestionale-mbc/app'
-alias g-bsoft360-gestionale-mbc-svn='cd ~/git-bsoft360/Gestionale_MBC'
+alias g-bsoft360-gestionale-mbc-svn='cd ~/git-bsoft360/gestionale-mbc-svn/Gestionale_MBC'
 # bsoft360 code
 alias code-bsoft360-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.code-workspace'
-alias code-bsoft360-gestionale-mbc-api='code ~/git-bsoft360/gestionale-mbc-api.code-workspace'
-alias code-bsoft360-gestionale-mbc-app='code ~/git-bsoft360/gestionale-mbc-app.code-workspace'
-alias code-bsoft360-gestionale-mbc-svn='code ~/git-bsoft360/gestionale-mbc-svn.code-workspace'
+
+# bsoft360 svn path
+alias g-bsoft360-svn='cd ~/git-bsoft360/svn'
+# bsoft360 svn repo
+alias g-bsoft360-svn-gestionale-mbc='cd ~/git-bsoft360/gestionale-mbc/svn/Gestionale_MBC'
+# bsoft360 svn code
+alias code-bsoft360-svn-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.svn.code-workspace'
 
 # red path
 alias g-red='cd ~/git-red'
 # red repo
 alias g-red-sgf-frontend='cd ~/git-red/sgf-frontend'
 alias g-red-sgf-backend='cd ~/git-red/sgf-backend'
-alias g-red-notifyme-platform-app='cd ~/git-red/notifyme-platform-app'
 # red code
 alias code-red-sgf-frontend='code ~/git-red/sgf-frontend.code-workspace'
 alias code-red-sgf-backend='code ~/git-red/sgf-backend.code-workspace'
-alias code-red-notifyme-platform-app='code ~/git-red/notifyme-platform-app.code-workspace'
 
 # tengroup path
 alias g-tengroup='cd ~/git-tengroup'

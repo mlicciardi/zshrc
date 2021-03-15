@@ -91,9 +91,11 @@ alias code-bsoft360-svn-gestionale-mbc='code ~/git-bsoft360/gestionale-mbc.svn.c
 # red path
 alias g-red='cd ~/git-red'
 # red repo
+alias g-red-csp='cd ~/git-red/csp'
 alias g-red-sgf-frontend='cd ~/git-red/sgf-frontend'
 alias g-red-sgf-backend='cd ~/git-red/sgf-backend'
 # red code
+alias code-red-csp='code ~/git-red/csp.code-workspace'
 alias code-red-sgf-frontend='code ~/git-red/sgf-frontend.code-workspace'
 alias code-red-sgf-backend='code ~/git-red/sgf-backend.code-workspace'
 
